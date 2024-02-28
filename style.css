@@ -1,0 +1,55 @@
+body{
+    background-color: #311E69;
+}
+
+.navbar{
+    text-align: left;
+    padding-top: 25px;
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #311E69;
+}
+
+.navbar a {
+    color: white;
+    background-color: #311E69;
+    text-decoration: none;
+    border: none;
+    padding: 15px 20px;
+    margin-top: 10px;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 600;
+    font-size: large;
+    display: inline-block;
+}
+
+.navbar a:hover {
+    color: #311E69;
+    background-color: pink;
+}
+
+
+.main-heading{
+    color: white;
+    text-align: center;
+    font-family: 'Heebo', sans-serif;
+    padding-bottom: 20px;
+    padding-top: 120px;
+}
+
+.main-image{
+    display: block;
+    margin: auto;
+}
+
+.logo{
+    height: 75px;
+    width: 75px;
+    padding-right: 60px;
+    padding-left: 20px;
+    padding-bottom: 15px;
+}
