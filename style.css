@@ -14,7 +14,7 @@ body{
     background-color: #311E69;
 }
 
-.navbar a {
+.navbar .anchor {
     color: white;
     background-color: #311E69;
     text-decoration: none;
@@ -27,9 +27,17 @@ body{
     display: inline-block;
 }
 
-.navbar a:hover {
+.navbar .anchor:hover {
     color: #311E69;
     background-color: pink;
+}
+
+.navbar .social-media{
+    float: right;
+    height: 50px;
+    width: 65px;
+    margin-top: 10px;
+    padding-left: 30px;
 }
 
 
@@ -47,9 +55,44 @@ body{
 }
 
 .logo{
-    height: 75px;
-    width: 75px;
+    height: 60px;
+    width: 60px;
     padding-right: 60px;
     padding-left: 20px;
     padding-bottom: 15px;
+}
+
+.space{
+    width: 750px;
+    display: inline-block;
+}
+
+.iwin-profile{
+    margin-left: 100px;
+    margin-right: 75px;
+    height: 900px;
+    width: 750px;
+}
+
+.about-container{
+    display: flex;
+}
+
+p, ul{
+    font-family: 'Heebo', sans-serif;
+    color: white;
+    font-size: medium;
+    display: block;
+}
+
+.text{
+    display: block;
+}
+
+.twitch-image{
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin: auto;
+    padding: 50px;
 }
