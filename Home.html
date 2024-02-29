@@ -5,6 +5,7 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+    <script src="script.js"></script>
 
     <!-- Navbar -->
     <div class="navbar">
@@ -13,6 +14,7 @@
         <div><a class="anchor" href="#about">About</a></div>
         <div><a class="anchor" href="#twitch">Twitch</a></div>
         <div class="space"></div>
+        
         <!-- Social Media Links -->
         <div>
             <a  href="https://www.youtube.com/@IwinTheGhost" target="_blank">
@@ -59,6 +61,47 @@
         </a>
 
         <!--Twitch Videos-->
-        <div></div>
+        <div class="video-player-layout">
+            <button id="left-button" onclick="slideLeft()">
+                <img class="video-buttons" src="Prefabs/LogoPlaceholder.jpg">
+            </button>
+        <div id="video-slider">
+            <video id="video1" width="600" height="600" controls>
+                <source src="Prefabs/Iwin the Scared Ghost.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <video id="video2" width="600" height="600" controls>
+                <source src="Prefabs/It Was Real.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <video id="video3" width="600" height="600" controls>
+                <source src="Prefabs/Iwin Sets Herself on Fire.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <video id="video4" width="600" height="600" controls>
+                <source src="Prefabs/Murder is Okay on Ai's and Animals.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <video id="video5" width="600" height="600" controls>
+                <source src="Prefabs/Iwin the Spiteful Ghost.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <video id="video6" width="600" height="600" controls>
+                <source src="Prefabs/Hmm....mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <video id="video7" width="600" height="600" controls>
+                <source src="Prefabs/It's Time to Scrap - Ghost Throws Hands.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <video id="video8" width="600" height="600" controls>
+                <source src="Prefabs/Iwin Didn't Want to See Feet Pics Anyway....mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+                    </div>
+                    <button id="right-button" onclick="slideRight()">
+                        <img class="video-buttons" src="Prefabs/LogoPlaceholder.jpg">
+                    </button>
+                </div>
 </body>
 </html>

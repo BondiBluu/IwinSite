@@ -96,3 +96,45 @@ p, ul{
     margin: auto;
     padding: 50px;
 }
+
+#video-slider{
+    display: flex;
+    overflow: hidden;
+    width: 600px;
+    margin: auto;
+}
+
+#video-slider video{
+    width: 600px;
+    height: 600px
+}
+
+video{
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.video-buttons{
+    display: flex;
+    width: 40px;
+    height: 40px;
+}
+
+button{
+    border: none;
+    background: none;
+    padding: 0;
+}
+
+.video-player-layout{
+    display: flex;
+}
+
+#right-button{
+    margin-right: 250px;
+}
+
+#left-button{
+    margin-left: 250px;
+}
